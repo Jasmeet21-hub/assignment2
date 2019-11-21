@@ -1,0 +1,10 @@
+
+extends layout
+
+block content
+  h1 Here is a list of available drinks
+  ul
+    each obj in coffee
+        li
+            b=obj.name
+            p=" Price: "+obj.OS
